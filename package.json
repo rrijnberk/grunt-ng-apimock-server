@@ -1,0 +1,39 @@
+{
+  "name": "grunt-ng-apimock-server",
+  "description": "Mock server for the grunt-ng-apimock project\u001b[D",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rrijnberk/grunt-ng-apimock-server",
+  "author": {
+    "name": "Richard Rijnberk",
+    "email": "richard.rijnberk@jdriven.com",
+    "url": "www.jdriven.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrijnberk/grunt-ng-apimock-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rrijnberk/grunt-ng-apimock-server/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rrijnberk/grunt-ng-apimock-server/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

@@ -1,12 +1,3 @@
-#intellij
-.idea
-*.iml
-*.ipr
-*.iws
-
-# generated
-.tmp
-
-#npm
 node_modules
 npm-debug.log
+tmp
