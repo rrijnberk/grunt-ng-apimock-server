@@ -24,6 +24,7 @@ module.exports = function(grunt) {
     this.files.forEach(function(f) {
       // Concat specified files.
       var src = f.src.filter(function(filepath) {
+        console.log('test', filepath)
         // Warn on and remove invalid source files (if nonull was set).
         if (!grunt.file.exists(filepath)) {
           grunt.log.warn('Source file "' + filepath + '" not found.');

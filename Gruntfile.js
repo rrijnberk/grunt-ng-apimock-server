@@ -10,6 +10,8 @@
 
 module.exports = function(grunt) {
 
+  require('load-grunt-tasks')(grunt);
+
   // Project configuration.
   grunt.initConfig({
     jshint: {
@@ -45,6 +47,9 @@ module.exports = function(grunt) {
         files: {
           'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
         }
+      },
+      mock: {
+        src: 'mocks'
       }
     },
 
@@ -62,6 +67,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
+
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
